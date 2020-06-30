@@ -1,0 +1,73 @@
+h1{
+    font-style:italic;
+    text-transform: uppercase;
+  }
+body{
+    text-align:center;
+    margin: 20px;
+    background-color: #F4F1BB;
+    font-family: Arial, sans-serif;
+}
+#menu{
+    background-color: #61988E;
+}
+#accueil{
+    margin-top: 20px;
+    background-image: url("./image/auto.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+}
+table{
+    margin: auto;
+    border-radius: 14px;
+    background-color: #fff;
+}
+td, th{
+    padding: 7px;
+}
+input, select, textarea{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #303f50;
+    outline: none;
+    font-size: inherit;
+    text-align: center;
+}
+input[type=submit]{
+    background-color: #303f50;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type='radio']{
+    width: auto;
+    margin: 8px 10px;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: #303f50;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    transition: 0.3s;
+}
+.section{
+    background-color: #fff;
+    color: #303f50;
+    font-weight: bold;
+}
+.onglet:hover{
+    font-weight: bold;
+    background-color: #d3d9de;
+}
